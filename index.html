@@ -86,31 +86,32 @@
 
   <article class="container mb-5">
     <div class="row">
-      <main class="col-xxl-7 col-xl-8 main py-3">
+      <main class="col-xxl-7 col-xl-8 main mt-5">
+        <h2 class="text-center">Registration form</h2>
         <form action="" method="get">
-          <div class="mb-4 ">
+          <div class="mb-3">
             <label for="email" class="col-sm-2 col-form-label">Email</label>
-            <input type="text" class="form-control" id=email" value="email@example.com">
+            <input type="text" class="form-control" id="email" value="email@example.com">
           </div>
 
-          <div class="mb-4">
+          <div class="mb-3">
             <label for="passw" class="col-sm-2 col-form-label">Password</label>
             <input type="password" class="form-control" id="passw">
           </div>
 
-          <div class="mb-4">
+          <div class="mb-3">
             <label for="textarea" class="form-label">Textarea</label>
             <textarea class="form-control" id="textarea" rows="3"></textarea>
           </div>
 
-          <div class="mb-4">
-            <label for="formFile" class="form-label">File input</label>
-            <input class="form-control" type="file" id="formFile">
+          <div class="mb-3">
+            <label for="fileinput" class="form-label">File input</label>
+            <input class="form-control" type="file" id="fileinput">
           </div>
 
-          <div class="mb-4">
-            <label for="exampleColorInput" class="form-label">Color picker</label>
-            <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c"
+          <div class="mb-3">
+            <label for="color" class="form-label">Color picker</label>
+            <input type="color" class="form-control form-control-color" id="color" value="#563d7c"
               title="Choose your color">
           </div>
 
@@ -118,38 +119,33 @@
 
         </form>
 
-        <div id="carouselExampleIndicators" class="carousel slide py-3" data-bs-ride="carousel">
+        <div id="carousel" class="carousel slide py-3" data-bs-ride="carousel">
           <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-              aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="assets/img/car_1.png" class="d-block w-100" alt="...">
+              <img src="assets/img/car_1.png" class="d-block w-100" alt="bolid">
             </div>
             <div class="carousel-item">
-              <img src="assets/img/car_2.jpg" class="d-block w-100" alt="...">
+              <img src="assets/img/car_2.jpg" class="d-block w-100" alt="bolid">
             </div>
             <div class="carousel-item">
-              <img src="assets/img/car_3.jpg" class="d-block w-100" alt="...">
+              <img src="assets/img/car_3.jpg" class="d-block w-100" alt="bolid">
             </div>
             <div class="carousel-item">
-              <img src="assets/img/car_4.jpg" class="d-block w-100" alt="...">
+              <img src="assets/img/car_4.jpg" class="d-block w-100" alt="bolid">
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
@@ -163,17 +159,19 @@
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                 aria-expanded="true" aria-controls="collapseOne">
-                Accordion Item #1
+                Fact №1
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
-                plugin adds the appropriate classes that we use to style each element. These classes control the overall
-                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
-                within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <strong>They Have Won Four World Championships.</strong>
+                Red Bull might be a newer team on the circuit, but that doesn't mean they haven't won their fair share
+                of victories. This phenomenal team has won four double world championships in a row, and on top of that,
+                they can say that their drivers have reached the podium 165 times.
+                This might have been done before, but understanding their history makes it even more impressive. They
+                have managed to make a name for themselves in record time, literally and figuratively, as they gain
+                supporters all across the globe.
               </div>
             </div>
           </div>
@@ -181,17 +179,17 @@
             <h2 class="accordion-header" id="headingTwo">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Accordion Item #2
+                Fact №2
               </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
-                plugin adds the appropriate classes that we use to style each element. These classes control the overall
-                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
-                within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <strong>Many of Their Drivers Come from Their Junior Team</strong>Red Bull had a junior team for those
+                between the ages of fourteen to twenty already established before they bought the Formula 1 team.
+                This junior league was designed to help discover drivers at an early age, and work to mold them into the
+                top racers of today's day and age. There have been several racers for the Red Bull team to come from
+                this program including Sebastian Vettel, Daniel Ricciardo, and Daniel Kyvat.
               </div>
             </div>
           </div>
@@ -199,17 +197,18 @@
             <h2 class="accordion-header" id="headingThree">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Accordion Item #3
+                Fact №3
               </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
-                plugin adds the appropriate classes that we use to style each element. These classes control the overall
-                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
-                within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <strong>A Limited Edition Red Bull Drink Can Featured Dan Ricciardo's Face.</strong> Dan Ricciardo was
+                plastered to the front of a special batch of Red Bull drink cans back in 2018. Fans were instructed to
+                scan the code on Snapchat, which would unlock a special "smile like dan" filter for fans to use. They
+                were then instructed to send in a creative photo or video and a panel of judges would choose a winner.
+                According to Red Bull's website, the winner received two premium grandstand tickets, two airplane
+                tickets, accommodations for two, $500 of drinks and food, a meet and greet with dan himself, and more.
               </div>
             </div>
           </div>
